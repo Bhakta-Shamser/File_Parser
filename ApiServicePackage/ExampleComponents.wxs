@@ -1,0 +1,9 @@
+<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs">
+  <Fragment>
+    <ComponentGroup Id="ExampleComponents" Directory="INSTALLFOLDER">
+      <Component>
+        <File Source="..\FileParserApiService\bin\Release\net8.0\publish\FileParserApiService.exe"/>
+      </Component>
+    </ComponentGroup>
+  </Fragment>
+</Wix>

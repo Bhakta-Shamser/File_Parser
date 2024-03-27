@@ -1,0 +1,8 @@
+﻿<Project Sdk="WixToolset.Sdk/4.0.5">
+  <ItemGroup>
+    <PackageReference Include="WixToolset.Util.wixext" Version="4.0.5" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FileParserApiService\FileParserApiService.csproj" />
+  </ItemGroup>
+</Project>
