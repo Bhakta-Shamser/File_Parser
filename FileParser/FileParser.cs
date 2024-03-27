@@ -16,6 +16,8 @@ namespace FileParser
                 await Task.Delay(TimeSpan.FromSeconds(5), stoppingToken);
                 //if (_logger.IsEnabled(LogLevel.Information))
                 //{
+                //{
+                //{
                     _logger.LogInformation("Worker running at: {time}", DateTimeOffset.Now);
                 //}
                 foreach(var file in Directory.EnumerateFiles(_folderPath))
